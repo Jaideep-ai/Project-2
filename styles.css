@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero and system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 50% vw;
+    font-weight: 900;
+    
+}
+
+.navbar{
+    width:50%vw;
+    margin-right: 190px;
+    margin-left: auto;
+   justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    margin-left: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.upp{
+    background-color: #1F2937;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro{
+    color: #F9FAF8;
+    width: 32%vw;
+    margin-right: 190px;
+    margin-left: auto;
+}
+.intro p{
+    font-size: 18px;
+}
+
+.photo{
+    margin-right: 190px;
+    margin-left: auto;
+}
+
+.photo img{
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 5px;
+    background-color: #3882f6;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+    color:#F9FAF8;
+}
