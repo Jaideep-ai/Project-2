@@ -115,7 +115,7 @@ button{
 }
 
 .quote{
-    height: 350px;
+    height: 250px;
     background-color: #e5e7eb;
     font-size: 25px ;
     font-style: italic;
@@ -131,13 +131,54 @@ button{
    text-decoration: none;
 }
 
+
+.sec3{
+    height: 250px;
+   padding: 20px;
+   align-items: center;
+   display: flex;
+   justify-content:center;
+   
+}
 .box{
     background-color:#3882f6;
     display: flex;
-    
+    border: 1px;
+    border-radius: 5px;
+    width: 65%;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 
 .box button{
     border: 1px solid #F9FAF8 ;
 }
+
+.final-text{
+    color: #F9FAF8;
+    margin: 0 auto 0 auto;
+}
+.final-text p{
+    font-size: 12px;
+}
+
+.signup{
+    margin: 0 auto 0 auto;
+}
+
+.sec4{
+    height: 60px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-box{
+    color: #F9FAF8;
+    
+}
+
